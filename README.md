@@ -34,5 +34,9 @@ Our framework consistently improves performance across diverse configurations:
 - Robust to drift, scaling errors, and localized pollution events.
 
 ## File Overview
-- src/main.py: Entry point for running calibration on real sensor data.
-- src/
+- main.py: Entry point for running calibration on real sensor data.
+- src/calibrator.py: Main HybridAdaptiveSensorCalibration class implementing trust-based correction.
+- src/evaluation.py: Functions for computing evaluation metrics (MAE, RMSE, correlation, etc.).
+- src/simulation.py: Code for generating synthetic datasets and running Monte Carlo simulations.
+- combined_data.csv: Example dataset with raw sensor and reference values. You can replace it with your own.
+
