@@ -32,3 +32,7 @@ Our framework consistently improves performance across diverse configurations:
 - Real-world test set shows **>65% reduction in MAE** for poorly performing sensors.
 - Outperforms Random Forest, SVR, and Gradient Boosting in nearly all conditions.
 - Robust to drift, scaling errors, and localized pollution events.
+
+## File Overview
+- src/main.py: Entry point for running calibration on real sensor data.
+- src/
