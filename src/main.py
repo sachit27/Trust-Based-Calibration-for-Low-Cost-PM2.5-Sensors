@@ -5,7 +5,7 @@ from src.evaluation import evaluate_all_metrics_on_test
 
 if __name__ == "__main__":
     # Load data
-    data = pd.read_csv('data/combined_data.csv')
+    data = pd.read_csv('combined_data.csv')
     data['Date'] = pd.to_datetime(data['Date'], format='%d.%m.%Y %H:%M')
     data = data.sort_values('Date').reset_index(drop=True)
     sensors = ['S1', 'S2', 'S3', 'S4']
