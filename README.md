@@ -1,9 +1,10 @@
 # Trust-Based Calibration for Low-Cost PM2.5 Sensors
 
-This repository contains the code, data, and resources supporting the paper:
+This repository contains the code, data, and resources supporting the paper published in [npj Climate and Atmospheric Science](https://www.nature.com/articles/s41612-025-01145-2):
 
-**Dynamic Calibration of Low-Cost PM2.5 Sensors Using Trust-Based Consensus Mechanisms**  
-_Sachit Mahajan, Dirk Helbing — ETH Zurich_
+[Dynamic Calibration of Low-Cost PM2.5 Sensors Using Trust-Based Consensus Mechanisms](https://www.nature.com/articles/s41612-025-01145-2) 
+authored by _Sachit Mahajan, Dirk Helbing — ETH Zurich_
+
 
 ## Overview
 
